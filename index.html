@@ -10,16 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="container header">
         <h1>
+            <i class="fa fa-th-large" style="font-size:50px;"></i>
             New Yorks Times Search
         </h1>
     </div>
     <div class="container">
         <div class="container body-header">
+            <i class="fa fa-list-alt" style="font-size:20px"></i>
             Search Parameters
         </div>
 
@@ -28,8 +31,7 @@
             <form>
                 <div class="form-group">
                     <label>Search Term</label>
-                    <input type="text" class="form-control" id="searchField" aria-describedby="inputHelp"
-                        placeholder="Enter text here">
+                    <input type="text" class="form-control" id="searchField" aria-describedby="inputHelp" placeholder="Enter text here">
                 </div>
                 <div class="form-group">
                     <label>Number of Records to Retrieve:</label>
@@ -47,14 +49,23 @@
                     <label>End Year (Optional)</label>
                     <input type="text" class="form-control" id="endYear">
                 </div>
-                <button type="submit" class="btn btn-primary search">Search</button>
-                <button type="clear" class="btn btn-primary clear">Clear Results</button>
+                <button type="submit" class="btn btn-primary search"><i class="fa fa-search"></i> Search</button>
+                <button type="clear" class="btn btn-primary clear"><i class="fa fa-trash-o"></i> Clear Results</button>
         </div>
 
         </form>
     </div>
     </div>
 
+    <div class="container articles">
+        <div class="container body-header">
+            <i class="fa fa-list-alt" style="font-size:20px"></i>
+            Top Articles
+        </div>
+        <div class="container articles_body">
+        </div>
+
+    </div>
 </body>
 <script src="assets/javascript/app.js"></script>
 

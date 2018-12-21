@@ -1,9 +1,10 @@
 .header {
     text-align: center;
-    background:lightblue;
+    background:darkblue;
     padding: 40px;
     color: white;
     margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
 
@@ -17,4 +18,12 @@
     padding: 5px;
     background:lightgrey;
     font-weight: bold;
+}
+
+.btn {
+    background: darkblue !important;
+}
+
+.articles {
+    margin-top: 20px
 }
