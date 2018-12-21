@@ -27,3 +27,8 @@
 .articles {
     margin-top: 20px
 }
+
+.articles_body {
+    padding: 20px;
+    border-style: outset;
+}
