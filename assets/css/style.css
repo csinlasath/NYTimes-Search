@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+    background:lightblue;
+    padding: 40px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.body {
+    padding: 20px;
+    border-style: outset;
+}
+
+.body-header {
+    border: outset;
+    padding: 5px;
+    background:lightgrey;
+    font-weight: bold;
+}

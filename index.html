@@ -1,16 +1,61 @@
 <!doctype <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>New York Times Search</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
-    
+    <div class="container header">
+        <h1>
+            New Yorks Times Search
+        </h1>
+    </div>
+    <div class="container">
+        <div class="container body-header">
+            Search Parameters
+        </div>
+
+        <div class="container body">
+
+            <form>
+                <div class="form-group">
+                    <label>Search Term</label>
+                    <input type="text" class="form-control" id="searchField" aria-describedby="inputHelp"
+                        placeholder="Enter text here">
+                </div>
+                <div class="form-group">
+                    <label>Number of Records to Retrieve:</label>
+                    <select class="form-control" id="Records">
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Start Year (Optional): </label>
+                    <input type="text" class="form-control" id="startYear">
+                </div>
+                <div class="form-group">
+                    <label>End Year (Optional)</label>
+                    <input type="text" class="form-control" id="endYear">
+                </div>
+                <button type="submit" class="btn btn-primary search">Search</button>
+                <button type="clear" class="btn btn-primary clear">Clear Results</button>
+        </div>
+
+        </form>
+    </div>
+    </div>
+
 </body>
 <script src="assets/javascript/app.js"></script>
+
 </html>
